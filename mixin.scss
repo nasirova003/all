@@ -1,0 +1,15 @@
+@mixin around{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+@mixin between{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+@mixin evenly{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
